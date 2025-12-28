@@ -63,7 +63,7 @@ function SectionOne() {
     }
   }, [])
   return (
-    <div className=" flex flex-col md:flex-row px-3 w-full gap-[35px]">
+    <div className=" flex flex-col md:flex-row px-3 md:px-0 w-full gap-[35px]">
       
         <div className="md:w-1/2 ">
         <motion.section

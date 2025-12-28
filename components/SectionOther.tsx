@@ -19,7 +19,7 @@ function SectionOther({ flip, header, body, image }: InfoSection) {
         }, [controls, inView])
 
   return (
-    <div className={`flex flex-col items-center w-full gap-[35px] px-3 ${
+    <div className={`flex flex-col items-center w-full gap-[35px] px-3 md:px-0 ${
         flip ? "md:flex-row-reverse" : "md:flex-row"}`}>
         <div className="md:w-1/2">
          <motion.section
