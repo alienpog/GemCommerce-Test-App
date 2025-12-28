@@ -97,10 +97,12 @@ function SectionOne() {
             </ul>
             </div>
             <Link
-                      href="https://alienartech.vercel.app/"
-                      className={`bg-[#EE6F4B] w-full block text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 mr-4 rounded-md`}
-                    >
-                      Get your dog's healthy meal today!
+              href="https://alienartech.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`bg-[#EE6F4B] w-full block text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 mr-4 rounded-md`}
+            >
+              Get your dog's healthy meal today!
              </Link>
              </div>
              </motion.section>

@@ -111,13 +111,15 @@ function HeroSection() {
         <div className="flex flex-col space-y-4 items-center max-w-lg w-full px-3">
         <Link
           href="https://alienartech.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
           className={`bg-[#EE6F4B] w-full max-w-[460px] text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 rounded-md`}
         >
           Get your dog's healthy meal today!
         </Link>
         <div className="flex space-x-6">
             <div className="flex space-x-2 items-center text-[#424153] font-normal text-[13px]">
-            <ShieldCheckIcon className="size-4 w-full text-[#424153]"/>
+            <ShieldCheckIcon className="size-4 text-[#424153]"/>
             <p>30-day money back guarantee</p>
             </div>
             <ul className="flex space-x-2">
