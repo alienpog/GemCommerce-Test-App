@@ -110,7 +110,7 @@ function HeroSection() {
               }} className=""> 
         <div className="flex flex-col space-y-4 items-center max-w-lg w-full px-3">
         <Link
-          href="/"
+          href="https://alienartech.vercel.app/"
           className={`bg-[#EE6F4B] w-full max-w-[460px] text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 rounded-md`}
         >
           Get your dog's healthy meal today!
