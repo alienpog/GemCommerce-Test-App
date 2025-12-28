@@ -63,9 +63,9 @@ function SectionOne() {
     }
   }, [])
   return (
-    <div className=" flex w-full space-x-[35px]">
+    <div className=" flex flex-col md:flex-row px-3 w-full gap-[35px]">
       
-        <div className="w-1/2 ">
+        <div className="md:w-1/2 ">
         <motion.section
                     ref={ref}
                     initial="hidden"
@@ -106,7 +106,7 @@ function SectionOne() {
              </motion.section>
         </div>
         
-        <div className="w-1/2">
+        <div className="md:w-1/2">
         <motion.section
                     ref={ref}
                     initial="hidden"

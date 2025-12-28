@@ -5,7 +5,7 @@ import { infoSections } from "@/lib/data";
 
 export default function Home() {
   return (
-    <div className=" mx-auto max-w-6xl space-y-30">
+    <div className=" mx-auto max-w-6xl space-y-15 md:space-y-30">
       {/* Hero Section */}
       <HeroSection/>
        {/* End of Hero Section */}

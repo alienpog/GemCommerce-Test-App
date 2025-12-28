@@ -28,10 +28,10 @@ function HeroSection() {
               variants={{
                 hidden: { opacity: 0, y: -50 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
-              }} className="">
-        <h1 className="mx-auto max-w-lg text-center Header">What makes us different makes them stronger</h1>
+              }} className=" ">
+        <h1 className="mx-auto max-w-lg text-center Header px-3 md:px-0">What makes us different makes them stronger</h1>
         </motion.section>
-        <div className="flex justify-center items-center space-x-[30px]">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-[30px] px-3">
             <motion.section
               ref={ref}
               initial="hidden"
@@ -108,45 +108,45 @@ function HeroSection() {
                 hidden: { opacity: 0, y: 50 },
                 visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
               }} className=""> 
-        <div className="flex flex-col space-y-4 items-center max-w-lg w-full">
+        <div className="flex flex-col space-y-4 items-center max-w-lg w-full px-3">
         <Link
           href="/"
-          className={`bg-[#EE6F4B] w-[460px] text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 mr-4 rounded-md`}
+          className={`bg-[#EE6F4B] w-full max-w-[460px] text-white hover:text-[#EE6F4B] text-[18px] text-center font-semibold hover:bg-transparent border-2 hover:border-[#EE6F4B] transition-all duration-500 ease-in-out py-3 rounded-md`}
         >
           Get your dog's healthy meal today!
         </Link>
         <div className="flex space-x-6">
             <div className="flex space-x-2 items-center text-[#424153] font-normal text-[13px]">
-            <ShieldCheckIcon className="size-4 text-[#424153]"/>
+            <ShieldCheckIcon className="size-4 w-full text-[#424153]"/>
             <p>30-day money back guarantee</p>
             </div>
             <ul className="flex space-x-2">
-                <li className=" w-[39.2px] flex items-center bg-black"><Image
+                <li className=" w-[39.2px] flex items-center "><Image
                 src="/asset/images/bankIcon/paypal.png"
                 alt="Hero-Section"
                 width={157} 
                 height={96} 
                 className="w-full max-h-[24px] object-contain"
                 /></li>
-                <li className=" w-[39.2px] flex items-center bg-black"><Image
+                <li className=" w-[39.2px] flex items-center"><Image
                 src="/asset/images/bankIcon/visa.png"
                 alt="Hero-Section"
                 width={157} 
                 height={96} 
                 className="w-full max-h-[24px] object-contain"
-                /></li><li className=" w-[39.2px] flex items-center bg-black"><Image
+                /></li><li className=" w-[39.2px] flex items-center"><Image
                 src="/asset/images/bankIcon/mastercard.png"
                 alt="Hero-Section"
                 width={157} 
                 height={96} 
                 className="w-full max-h-[24px] object-contain"
-                /></li><li className=" w-[39.2px] flex items-center bg-black"><Image
+                /></li><li className=" w-[39.2px] flex items-center"><Image
                 src="/asset/images/bankIcon/Apple-Pay.png"
                 alt="Hero-Section"
                 width={157} 
                 height={96} 
                 className="w-full max-h-[24px] object-contain"
-                /></li><li className=" w-[39.2px] flex items-center bg-black"><Image
+                /></li><li className=" w-[39.2px] flex items-center"><Image
                 src="/asset/images/bankIcon/Google-Pay.png"
                 alt="Hero-Section"
                 width={157} 
