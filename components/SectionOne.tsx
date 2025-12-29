@@ -5,6 +5,24 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState, useRef } from "react"
+
+/**
+ * SectionOne
+ * ----------
+ * Hero-style marketing section with scroll-triggered entrance animations
+ * and looping animated percentage counters.
+ *
+ * Displays descriptive content, key statistics that count up to
+ * predefined percentages, a call-to-action button, and a product image
+ * in a responsive two-column layout.
+ *
+ * - Uses Intersection Observer to trigger entrance animations on scroll
+ * - Synchronizes text and image animations with a shared Framer Motion controller
+ * - Animates multiple percentage counters from 0 to target values
+ * - Automatically resets and replays counters on a timed interval
+ * - Optimized image rendering using Next.js Image
+ */
+
 function SectionOne() {
 
    const controls = useAnimation(); // Controls the animation

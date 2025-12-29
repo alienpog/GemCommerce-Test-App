@@ -8,6 +8,24 @@ import Image from "next/image";
 import Link from "next/link";
 import { ShieldCheckIcon } from "lucide-react";
 
+/**
+ * HeroSection
+ * -----------
+ * Marketing hero section that highlights key product differentiators
+ * using animated feature blocks, a central product image, and a
+ * conversion-focused call-to-action.
+ *
+ * Features animate into view when the section enters the viewport,
+ * with left and right feature lists sliding in from opposite directions
+ * and the heading and CTA animating vertically for emphasis.
+ *
+ * - Uses Intersection Observer to trigger animations once on scroll
+ * - Synchronizes all entrance animations with a shared Framer Motion controller
+ * - Dynamically renders feature content from a shared data source
+ * - Optimized image rendering via Next.js Image
+ * - Includes trust indicators and payment method icons to reinforce conversion
+ */
+
 function HeroSection() {
      const controls = useAnimation(); // Controls the animation
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 }); // Detects visibility

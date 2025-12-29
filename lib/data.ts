@@ -1,5 +1,22 @@
 import { Feature, InfoSection } from "./typescript";
 
+/**
+ * Shared Content Data
+ * -------------------
+ * Centralized, type-safe data definitions used to populate
+ * marketing and informational sections across the application.
+ *
+ * Exports:
+ * - `features`: A list of product differentiators displayed
+ *   in the hero section
+ * - `infoSections`: Configuration data for reusable
+ *   text-and-image sections rendered on the homepage
+ *
+ * This file contains static content only and no UI or logic.
+ * Rendering and animation behavior is handled by consuming components.
+ */
+
+
 export const features: Feature[] = [
   {
     name: "Real Food",
